@@ -1,0 +1,19 @@
+@mixin sans {
+    font-family: sans-serif;
+}
+
+@mixin arial {
+    font-family: Arial;
+}
+
+@mixin light {
+    font-weight: 300;
+}
+
+@mixin regular {
+    font-weight: 400;
+}
+
+@mixin bold {
+    font-weight: bold;
+}

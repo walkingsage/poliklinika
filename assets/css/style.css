@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 90%;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  margin-left: 15px; }
+
+body {
+  font-size: 1em;
+  position: relative; }
+  body .header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%; }
+    body .header .header__content {
+      display: grid;
+      grid-template-columns: 30% 50% 20%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      justify-items: center;
+      padding: 30px 0 30px 0; }
+      body .header .header__content img {
+        max-width: 100%; }
+      body .header .header__content a, body .header .header__content p {
+        font-family: sans-serif;
+        color: #005C40;
+        font-size: 1.25em; }
+      body .header .header__content a:hover {
+        color: #3c7c63; }
+      body .header .header__content nav {
+        width: 100%; }
+        body .header .header__content nav ul {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+          body .header .header__content nav ul li {
+            list-style: none; }
+      body .header .header__content .header__phone {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        body .header .header__content .header__phone a, body .header .header__content .header__phone p {
+          text-align: center; }
+  body .header__main {
+    background-image: url(../../images/header__bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh; }
+    body .header__main .header__main__content {
+      padding-top: 150px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      height: 100%; }
+      body .header__main .header__main__content h1 {
+        font-family: sans-serif;
+        color: #ffffff;
+        font-size: 2.6875em; }
+      body .header__main .header__main__content p {
+        font-family: sans-serif;
+        color: #ffffff;
+        font-size: 1.25em; }

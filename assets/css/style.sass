@@ -1,0 +1,97 @@
+@import fonts
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+.container
+    width: 100%
+    max-width: 90%
+    padding: 0 10px 0 10px 
+    margin: 0 auto
+    height: 100%
+
+a
+    text-decoration: none
+
+ul,ol
+    margin-left: 15px
+
+body
+    font-size: 1em
+    position: relative
+
+    .header
+        position: fixed
+        top: 0
+        z-index: 100
+        width: 100%
+        
+        .header__content
+            display: grid
+            grid-template-columns: 30% 50% 20%
+            align-items: center
+            justify-items: center
+            padding: 30px 0 30px 0
+
+            img
+                max-width: 100%
+
+            a,p
+                +sans
+                color: #005C40
+                font-size: 20px/16px*1em
+
+            a:hover
+                color: #3c7c63
+
+            nav
+                width: 100%
+
+                ul
+                    display: flex
+                    justify-content: space-around
+
+                    li
+                        list-style: none
+
+
+            .header__phone
+                display: flex
+                flex-direction: column
+                justify-content: center
+
+                a,p
+                    text-align: center
+
+    .header__main
+        background-image: url(../../images/header__bg.jpg)
+        background-size: cover
+        background-attachment: fixed
+        background-repeat: no-repeat
+        height: 100vh
+
+        .header__main__content
+            padding-top: 150px
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            height: 100%
+
+            h1
+                +sans
+                color: #ffffff
+                font-size: 43px/16px*1em
+
+            p
+                +sans
+                color: #ffffff
+                font-size: 20px/16px*1em
+
+            .header__main__how
+
+        
+
+
+        
