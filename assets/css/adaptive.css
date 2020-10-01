@@ -1,3 +1,187 @@
+@media screen and (max-width: 998px) {
+  body {
+    font-size: 0.9em !important; }
 
+  .header__main__content h1 {
+    font-size: 1.6875em !important; }
 
-/*# sourceMappingURL=adaptive.css.map */
+  .header__content {
+    grid-template-columns: 30% 45% 25% !important; }
+
+  .header__main__how {
+    grid-template-columns: 100% !important;
+    grid-row-gap: 20px; }
+
+  .header__main__how img {
+    width: 70% !important; }
+
+  .header__main__how .right {
+    text-align: center !important;
+    gap: 30px !important; }
+
+  .right ol {
+    justify-self: center;
+    display: grid;
+    grid-row-gap: 10px !important; }
+
+  .right ol li {
+    justify-self: center; }
+
+  .open__popup {
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 50%; } }
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.8em !important; }
+
+  .title {
+    font-size: 1.7em !important; }
+
+  .about__containers {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-row-gap: 20px; }
+
+  .about__first {
+    grid-area: 1/1/2/3; }
+
+  .about__second {
+    grid-area: 1/3/2/5; }
+
+  .about__three {
+    grid-area: 2/2/3/4; }
+
+  .contact__containers {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-row-gap: 20px; }
+
+  .contact__first {
+    grid-area: 1/1/2/3; }
+
+  .contact__second {
+    grid-area: 1/3/2/5; }
+
+  .contact__three {
+    grid-area: 2/2/3/4; }
+
+  .footer__content {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-row-gap: 20px; }
+
+  .footer__content .title {
+    grid-area: 1/1/2/3;
+    font-size: 1em !important; }
+
+  .footer__content .right {
+    grid-area: 1/3/2/5; }
+
+  .footer__content .center {
+    grid-area: 2/2/3/4; } }
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 0.7em !important; }
+
+  .header__content {
+    grid-template-columns: 60% 40% !important; }
+
+  .header__content nav {
+    display: none;
+    position: absolute;
+    top: 84px;
+    max-width: 86%;
+    width: 100%;
+    background: white;
+    padding: 20px 0 20px 0; }
+
+  .logo {
+    grid-area: 1/1/2/2; }
+
+  .header__phone {
+    display: none !important; }
+
+  .header__phone__mobile {
+    display: block !important; }
+
+  .header__content nav ul {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px; }
+
+  .mobile__burger {
+    display: block !important;
+    color: #005c40;
+    font-size: 22px !important;
+    justify-self: end; }
+
+  .footer__content {
+    grid-template-columns: 100% !important;
+    grid-row-gap: 20px; }
+
+  .footer__content .title {
+    grid-area: 1/1/2/2;
+    font-size: 1em !important;
+    text-align: center !important; }
+
+  .footer__content .right {
+    grid-area: 2/1/3/2;
+    text-align: center !important; }
+
+  .footer__content .center {
+    grid-area: 3/1/4/2;
+    text-align: center !important; } }
+@media screen and (max-width: 468px) {
+  body {
+    font-size: 0.7em !important; }
+
+  .container {
+    max-width: 95% !important; }
+
+  .about__containers {
+    grid-template-columns: 100% !important;
+    grid-row-gap: 20px; }
+
+  .about__first {
+    grid-area: 1/1/2/2 !important; }
+
+  .about__second {
+    grid-area: 2/1/3/2 !important; }
+
+  .about__three {
+    grid-area: 3/1/4/2 !important; }
+
+  .contact__containers {
+    grid-template-columns: 100% !important;
+    grid-row-gap: 20px; }
+
+  .contact__first {
+    grid-area: 1/1/2/2 !important; }
+
+  .contact__second {
+    grid-area: 2/1/3/2 !important; }
+
+  .contact__three {
+    grid-area: 3/1/4/2 !important; }
+
+  .why__we__containers {
+    grid-template-columns: 100% !important; } }
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 0.6em !important; }
+
+  .button {
+    width: 100% !important;
+    min-width: 100%; }
+
+  .header__main__content .right {
+    max-width: 100%; }
+
+  .form {
+    padding: 50px 15px 50px 15px !important; }
+
+  .container {
+    max-width: 100% !important; } }

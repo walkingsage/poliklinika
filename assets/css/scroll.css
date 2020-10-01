@@ -1,0 +1,82 @@
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:0px;
+    height:0px
+    }
+::-moz-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:0px;
+    height:0px
+    }
+::-o-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:0px;
+    height:0px
+    }
+::-ms-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:0px;
+    height:0px
+    }
+            
+    
+    
+    ::-webkit-scrollbar-track,::-moz-scrollbar-track,::-o-scrollbar-track,::-ms-scrollbar-track {
+    background-color:hsla(0, 0%, 100%, 0)
+    }
+    
+    ::-webkit-scrollbar-thumb,::-moz-scrollbar-thumb,::-o-scrollbar-thumb,::-ms-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 5px;
+    background-color:hsla(174, 100%, 50%, 0);
+    }
+    
+    ::-webkit-scrollbar-thumb:hover,::-moz-scrollbar-thumb:hover,::-o-scrollbar-thumb:hover,::-ms-scrollbar-thumb:hover{
+    background-color:hsla(174, 63%, 59%, 0);
+    }
+    
+    ::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:0px;
+    height:0px
+    }
+    ::-moz-resizer{
+        background-image:url('');
+        background-repeat:no-repeat;
+        width:0px;
+        height:0px
+    }
+    ::-o-resizer{
+        background-image:url('');
+        background-repeat:no-repeat;
+        width:0px;
+        height:0px
+    }
+    ::-ms-resizer{
+        background-image:url('');
+        background-repeat:no-repeat;
+        width:0px;
+        height:0px
+        }
+
+    
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+
+    ::-moz-scrollbar{
+        width: 0px;
+    }
+
+    ::-o-scrollbar{
+        width: 0px;
+    }
+
+    ::-ms-scrollbar{
+        width: 0px;
+    }

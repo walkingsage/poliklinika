@@ -1,19 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
 @mixin sans {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @mixin arial {
     font-family: Arial;
 }
 
-@mixin light {
-    font-weight: 300;
+@mixin roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin medium {
+    font-weight: 500;
 }
 
 @mixin regular {
     font-weight: 400;
 }
 
+@mixin semibold {
+    font-weight: 600;
+}
+
 @mixin bold {
-    font-weight: bold;
+    font-weight: 700;
 }
