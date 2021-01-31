@@ -38,7 +38,8 @@ try {
     $mail->setFrom('mail_apteka_zakaz@vipmed.ru', 'Заявка с сайта RPO VIPMED'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('mail_apteka_zakaz@vipmed.ru');
+    // $mail->addAddress('mail_apteka_zakaz@vipmed.ru');
+    $mail->addAddress('walkimgsage@mail.ru');
      // Ещё один, если нужен
 
     // Прикрипление файлов к письму
