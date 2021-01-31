@@ -1,4 +1,8 @@
 @media screen and (max-width: 998px) {
+
+  body main #lekarstva {
+    padding:50px 0;}
+
   body {
     font-size: 0.9em !important; }
 
@@ -28,8 +32,7 @@
     justify-self: center; }
 
   .open__popup {
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     width: 50%; } }
 @media screen and (max-width: 768px) {
   body {
@@ -87,11 +90,11 @@
   .header__content nav {
     display: none;
     position: absolute;
-    top: 84px;
-    max-width: 86%;
+    top: 74px;
+    left: 0;
     width: 100%;
     background: white;
-    padding: 20px 0 20px 0; }
+    padding: 20px 20px 20px 20px; }
 
   .logo {
     grid-area: 1/1/2/2; }
@@ -103,13 +106,8 @@
     display: block !important; }
 
   .header__content nav ul {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 20px; }
 
   .mobile__burger {
@@ -133,7 +131,10 @@
 
   .footer__content .center {
     grid-area: 3/1/4/2;
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  .sucess {
+    width: 90% !important; } }
 @media screen and (max-width: 468px) {
   body {
     font-size: 0.7em !important; }
@@ -185,3 +186,5 @@
 
   .container {
     max-width: 100% !important; } }
+
+/*# sourceMappingURL=adaptive.css.map */
